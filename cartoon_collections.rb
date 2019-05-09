@@ -20,10 +20,10 @@ end
 def long_planeteer_calls(arr)
   arr.each do |n|
     if n.length < 4
-      result = true
+      result = false
     end
   end
-  return false
+  return true
 end
 
 def find_the_cheese# code an argument here

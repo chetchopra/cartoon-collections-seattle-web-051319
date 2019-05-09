@@ -15,6 +15,7 @@ def summon_captain_planet(arr)
     arr[count] = change
     count += 1
   end
+  return arr
 end
 
 def long_planeteer_calls# code an argument here

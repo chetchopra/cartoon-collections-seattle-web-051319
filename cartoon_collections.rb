@@ -15,7 +15,9 @@ def summon_captain_planet(arr)
   #   count += 1
   # end
   # return arr
-  arr.map
+  arr.map! {
+    
+  }
 end
 
 

@@ -9,7 +9,7 @@ end
 def summon_captain_planet(arr)
   count = 0
   arr.each do |n|
-    change = n.upcase
+    change = n.capitalize
     change += "!"
     arr[count] = change
     count += 1

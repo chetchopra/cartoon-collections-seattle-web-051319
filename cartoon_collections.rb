@@ -18,7 +18,7 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(call)
-  call.length < 4 ? TRUE : FASLE
+  call.length < 4 ? true : FASLE
 end
 
 def find_the_cheese# code an argument here

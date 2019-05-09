@@ -24,6 +24,7 @@ def long_planeteer_calls(arr)
       result = false
     end
   end
+  return result
 end
 
 def find_the_cheese# code an argument here

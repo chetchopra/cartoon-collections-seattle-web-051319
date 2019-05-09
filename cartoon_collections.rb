@@ -26,8 +26,6 @@ def long_planeteer_calls(arr)
   return true
 end
 
-assorted_words = ["two", "go", "indu", "bop"]
-puts long_planeteer_calls(assorted_words)
 
 # def find_the_cheese# code an argument here
 #   # the array below is here to help

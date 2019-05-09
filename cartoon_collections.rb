@@ -7,10 +7,14 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
+  count = 0
   arr.each do |n|
     change = n
     n.upcase
-  
+    change += "!"
+    arr[count] = change
+    count += 1
+  end
 end
 
 def long_planeteer_calls# code an argument here

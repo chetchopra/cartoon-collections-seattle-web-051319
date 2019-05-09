@@ -16,7 +16,7 @@ def summon_captain_planet(arr)
   # end
   # return arr
   arr.map! {
-    
+    |name| name.capitalize
   }
 end
 

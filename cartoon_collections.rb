@@ -15,6 +15,7 @@ def summon_captain_planet(arr)
   #   count += 1
   # end
   # return arr
+  name
 end
 
 

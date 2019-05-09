@@ -7,17 +7,14 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  # count = 0
-  # arr.each do |n|
-  #   change = n.capitalize
-  #   change += "!"
-  #   arr[count] = change
-  #   count += 1
-  # end
-  # return arr
-  arr.map! {
-    |name| name.capitalize
-  }
+  count = 0
+  arr.each do |n|
+    change = n.capitalize
+    change += "!"
+    arr[count] = change
+    count += 1
+  end
+  return arr
 end
 
 
